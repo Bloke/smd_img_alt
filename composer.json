@@ -1,0 +1,16 @@
+{
+  "name": "bloke/smd_img_alt",
+  "description": "Faster image alt boilerplate templating",
+  "keywords": ["textpattern", "plugin", "image", "alt text", "select", "dropdown", "speed", "article", "replacement strings"],
+  "homepage": "https://github.com/bloke/adi_matrix",
+  "license": "LGPL-2.1",
+  "type": "textpattern-plugin",
+  "support": {
+    "issues": "https://github.com/bloke/smd_img_alt/issues",
+    "source": "https://github.com/bloke/smd_img_alt"
+  },
+  "require": {
+    "textpattern/lock": ">=4.7.0",
+    "textpattern/installer": "*"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "smd_img_alt",
+  "description": "Faster image alt boilerplate templating",
+  "version": "0.1.1",
+  "type": 4,
+  "author": "Stef Dawson",
+  "author_uri": "https://stefdawson.com/",
+  "order": 5,
+  "flags": 0,
+  "help": {"file" : ["./README.textile"]}
+}

@@ -1,0 +1,20 @@
+h1. smd_img_alt
+
+Adds a dropdown of potted alt tags for rapid selection of alternate text. The alt tags are defined in a form and can have replacements applied to them from the article that the image is used in.
+
+h2. Usage
+
+After installation, create a form (of any type) called @smd_img_alt@. In this form, write your boilerplate alt text strings, one per line.
+
+When you visit the Image Edit panel, the dropdown appears below the alt text box. Choosing an entry from the select list will immidiately replace the contents in the alt text box with the selected entry for you to amend if you wish, before saving. Note the changes are not committed to the database until you Save them.
+
+h2. Replacement strings
+
+If you assign an image to an article, you can also use replacement variables in the alt text. The replacements are surrounded by curly braces, and take the names of article fields in the database. For example, if you had a serial number in custom field number 1 and product code in custom field 2, you could add a row to your form like this:
+
+bc. Product: {custom_2} close-up (Serial number {custom_1})
+
+Bear in mind:
+
+# The replacements are made immediately, as the panel loads, so if there is a lot of text in your replacement strings, it can make the dropdown entries very long!
+# If the image is associated with more than one article, only the first one will be used to grab replacements.
