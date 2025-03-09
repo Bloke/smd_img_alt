@@ -19,7 +19,7 @@ $plugin['name'] = 'smd_img_alt';
 $plugin['version'] = '0.1.0';
 $plugin['author'] = 'Stef Dawson';
 $plugin['author_uri'] = 'https://www.stefdawson.com/';
-$plugin['description'] = 'Faster image alt templating';
+$plugin['description'] = 'Faster image alt boilerplate templating';
 
 // Plugin load order:
 // The default value of 5 would fit most plugins, while for instance comment
@@ -136,7 +136,7 @@ h2. Usage
 
 After installation, create a form (of any type) called @smd_img_alt@. In this form, write your boilerplate alt text strings, one per line.
 
-When you visit the Image Edit panel, the dropdown appears below the alt text box. Choosing an entry from the select list will immidiately replace the contents in the alt text box with the selected entry for you to amend if you wish, before saving. Note the changes are not committed to the database until you Save them.
+When you visit the Image Edit panel, the dropdown appears below the alt text box. Choosing an entry from the select list will immediately replace the contents in the alt text box with the selected entry for you to amend if you wish, before saving. Note the changes are not committed to the database until you Save them.
 
 h2. Replacement strings
 
